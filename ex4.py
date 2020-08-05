@@ -1,6 +1,10 @@
 import random
 def main():
 
+    # 名前を聞くパート
+    print("Who are you? ")
+    name = input()
+    print("Hello, " + name + "!")
 
     heads = 0
     tails = 0
