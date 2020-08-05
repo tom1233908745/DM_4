@@ -26,9 +26,9 @@ def main():
 
     print("Heads: " + str(heads) + " Tails:" + str(tails))
     if heads > tails:
-        print(You + " won!")
+        print(str(name) + " won!")
     else:
-        print(You + " lost!")        
+        print(str(name) + " lost!")        
    
 
     return
